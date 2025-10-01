@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Raw data (don’t upload huge files)
+data/raw/
+
+# Large processed files
+data/processed/*.csv
+data/processed/*.parquet
